@@ -7,10 +7,10 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <main className="pt-24 max-w-6xl mx-auto px-4">
+      <main className="pt-24 max-w-6xl mx-auto px-4 space-y-16 md:space-y-24">
         <Hero />
-        <Projects />
         <Skills />
+        <Projects />
       </main>
     </>
   );
